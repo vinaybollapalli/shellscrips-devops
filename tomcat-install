@@ -8,3 +8,4 @@ cd /tmp
 wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.zip.asc
 unzip -q apache-tomcat-9.0.87.zip -d /opt/
 chmod -R 755 /opt/apache-tomcat-9.0.87.zip
+# enable and save it 
