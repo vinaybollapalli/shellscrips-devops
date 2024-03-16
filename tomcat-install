@@ -1,0 +1,10 @@
+#!/bin/bash
+# This shell script is to install tomcat 
+Tomcat_version=  9.0.87
+# install java
+yum install java -y 
+#download tomcat
+cd /tmp
+wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.zip.asc
+unzip -q apache-tomcat-9.0.87.zip -d /opt/
+chmod -R 755 /opt/apache-tomcat-9.0.87.zip
